@@ -16,7 +16,6 @@ function addTask(){
     inputBox.value = "";
     saveData()
 }
-
 listContainer.addEventListener('click',function(e){
     console.log( "this is a target",e.target.tagName)
     if(e.target.tagName === "LI"){
